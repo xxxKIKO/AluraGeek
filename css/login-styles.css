@@ -1,0 +1,148 @@
+.encabezado{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.navegacion{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.buscar{
+    border-radius: 25px;
+    margin-left: 10px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    padding: 5px 15px;
+    margin-left: 30px;
+  }
+  
+  input {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+  }
+  
+  button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+  }
+  
+  svg {
+    width: 15px;
+    height: 15px;
+    fill: #888;
+  }
+
+  .btn {
+    background-color: #fff; 
+    border: 1px solid #00f;
+    border-radius: 0;
+    color: #00f;
+    padding: 10px 20px; 
+    width: 200px;
+    height: 50px;
+  }
+  
+  .btn:hover {
+    background-color: #00f;
+    color: #fff;
+  }
+
+.login{
+    background-color: rgb(226, 226, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-ancho {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px; 
+    background-color: #fff;
+  }
+
+.contenido__login{
+    margin: 50px 50px 50px 50px ;
+}
+
+.titulo{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.boton__enviar{
+    display: flex;
+    justify-content: center;
+}
+
+.contacto{
+  background-color: rgba(250, 252, 255, 0.432);
+  display: flex;
+  justify-content: center;
+  padding: 50px 50px 50px 50px;
+}
+
+.contacto__contenido{
+  display: flex;
+  justify-content: space-around;
+  
+  width: 80%;
+}
+
+.contacto .sobre__nosotros{
+  display: flex;
+  flex-direction: column;
+}
+
+.item__contacto{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 15px;
+}
+
+.form-control{
+  padding: 15px 20px;
+}
+
+.btn__login{
+  font-family:sans-serif;
+  background-color: rgb(81, 81, 230); 
+  color: rgb(255, 255, 255);
+  padding: 10px 20px; 
+  width: 180px;
+  height: 50px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.btn_enviar{
+    font-family:sans-serif;
+    background-color: rgb(81, 81, 230); 
+    color: rgb(255, 255, 255);
+    padding: 10px 20px; 
+    width: 180px;
+    height: 50px;
+  }
+
+.footer__contenido{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.logoFenix{
+  margin: 10px 10px 10px 10px;
+}
