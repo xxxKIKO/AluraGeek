@@ -94,10 +94,28 @@
     margin-left: 80px;
   }
 
+  .btn_agregar{
+    font-family:sans-serif;
+    background-color: rgb(81, 81, 230); 
+    color: rgb(255, 255, 255);
+    padding: 10px 20px; 
+    margin-right: 10px;
+    width: 180px;
+    height: 50px;
+  }
+
+  .all__products{
+    padding: 50px 10px 50px 10px;
+    background-color: rgb(219, 219, 219);
+
+  }
+
   .products{
+    padding-top: 20px;
     display: flex;
     justify-content: space-around;
     text-align: center;
+    flex-wrap: wrap;
   }
 
   .titulo__star__wars__products{
@@ -166,4 +184,32 @@
 
 .logoFenix{
   margin: 10px 10px 10px 10px;
+}
+
+.formulario__addProduct{
+
+  display: flex;
+  justify-content: center;
+
+}
+
+.titulo__addProduct{
+  text-align:center ;
+  margin: 10px 50px 50px 50px;
+}
+
+.add__products{
+  padding: 50px 50px 50px 50px;
+  background-color: #f5f4f4;
+}
+
+
+.btn__guardar{
+  font-family:sans-serif;
+  background-color: rgb(93, 93, 245); 
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  padding: 10px 20px; 
+  width: 500px;
+  height: 50px;
 }

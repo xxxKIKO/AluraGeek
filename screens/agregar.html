@@ -19,7 +19,7 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css"
     rel="stylesheet"
     />
-    <link rel="stylesheet" href="../css//login-styles.css">
+    <link rel="stylesheet" href="../css/index-styles.css">
 </head>
 <body>
     <header class="encabezado">
@@ -37,33 +37,41 @@
               </div>
               
         </nav>
-        <div class="boton__login">
-            <button class="btn"><a href="index.html" >Menú Administrador</a></button>
-        </div> 
+
     </header>
-    <div class="login">
-        <div class="contenido__login">
-            <div class="titulo">
-                <h3 class="titulo__login">Iniciar Sesión</h3>
-            </div>
-           <div class="formulario__login">
+
+    <div class="add__products">
+        <div class="titulo__addProduct">
+            <h2 class="titulo">Agregar un producto</h2>
+        </div>
+        <div class="formulario__addProduct">
             <form action="">
-                <div class="form-outline mb-4" style="width: 400px">
-                    <input type="email" id="email" class="form-control form-control-lg" style="background-color: #fff;" data-email/>
-                    <label class="form-label" for="form2Example17">Usuario</label>
+                <div class="form-outline mb-4" style="width: 500px">
+                    <input type="url" id="urlImage" class="form-control form-control-lg" style="background-color: #fff;" data-urlImage/>
+                    <label class="form-label" for="form2Example17">Url de la Imagen</label>
                 </div>
                 <div class="form-outline mb-4">
-                    <input type="password" id="password" class="form-control form-control-lg" style="background-color: #fff;" data-msg/>
-                    <label class="form-label" for="form2Example17">Password</label>
+                    <input type="text" id="categoriaProducto" class="form-control form-control-lg" style="background-color: #fff;" data-categoria/>
+                    <label class="form-label" for="form2Example17">Categoría</label>
                 </div>
-                <div class="boton__enviar">
-                    <button class="btn__login"><a href="productos.html" style="color: #fff;">Login</a></button>
+                <div class="form-outline mb-4">
+                    <input type="text" id="nombreProducto" class="form-control form-control-lg" style="background-color: #fff;" data-categoria/>
+                    <label class="form-label" for="form2Example17">Nombre del Producto</label>
+                </div>
+                <div class="form-outline mb-4">
+                    <input type="text" id="precioProducto" class="form-control form-control-lg" style="background-color: #fff;" data-categoria/>
+                    <label class="form-label" for="form2Example17">Precio del Proucto</label>
+                </div>
+                <div class="form-outline mb-4">
+                    <input type="textarea" rows="2" cols="50" id="descripcionProducto" class="form-control form-control-lg" style="background-color: #fff;" data-categoria/>
+                    <label class="form-label" for="form2Example17">Descripción del producto</label>
+                </div>
+                <div class="boton__guardar">
+                    <button class="btn__guardar">Agregar Producto</button>
                 </div> 
             </form>
            </div>
-        </div>
     </div>
-    
     <section class="contacto">
         <div class="contacto__contenido">
             <div class="logo">
@@ -95,7 +103,6 @@
             </div>
         </section>
         </div>
-        <!-- Footer -->
         <footer class="footer">
             <div class="footer__contenido">
                 <img src="../img/logoFenix.png" alt="LogoFenix" width="60" class="logoFenix">
