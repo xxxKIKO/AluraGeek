@@ -25,7 +25,7 @@
     <header class="encabezado">
         <nav class="navegacion">
             <div>
-                <a href="../screens/index.html"><img src="../img/Logo.png" width="200" alt="logoAluraGeek"></a>
+                <a href="../screens/index.html"><img src="../img/Logo.png" width="200" alt="logoAluraGeek"></a> 
             </div>
             <div class="search">
                 <input type="text" placeholder="Buscar...">
@@ -40,20 +40,30 @@
 
     </header>
 
-    <div class="all__products">
-        <div class="titulo__vertodo">
-            <h2 class="titulo__star__wars__products">Todos los productos</h2>
-            <div class="boton__agregar">
-                <button class="btn_agregar"><a href="agregar.html" style="color: #fff;">Agregar Producto</a></button>
-            </div> 
+    <div class="add__products">
+        <div class="titulo__addProduct">
+            <h2 class="titulo">Editar un producto</h2>
         </div>
-        
-        <section class="products" data-product>
-           <!-- aqui van los productos pero se llenan con javascript -->
-        </section>
+        <div class="formulario__addProduct">
+            <form action="POST" data-form>
+                <div class="form-outline mb-4" style="width: 500px">
+                    <input type="url" id="urlImage" class="form-control form-control-lg" style="background-color: #fff;" data-urlImage/>
+                    <label class="form-label" for="form2Example17">Url de la Imagen</label>
+                </div>
+                <div class="form-outline mb-4">
+                    <input type="text" id="nombreProducto" class="form-control form-control-lg" style="background-color: #fff;" data-nombre/>
+                    <label class="form-label" for="form2Example17">Nombre del Producto</label>
+                </div>
+                <div class="form-outline mb-4">
+                    <input type="text" id="precioProducto" class="form-control form-control-lg" style="background-color: #fff;" data-precio/>
+                    <label class="form-label" for="form2Example17">Precio del Proucto</label>
+                </div>
+                <div class="boton__guardar">
+                    <button class="btn__guardar">Guardar Cambios</button>
+                </div> 
+            </form>
+           </div>
     </div>
-    
-
     <section class="contacto">
         <div class="contacto__contenido">
             <div class="logo">
@@ -93,13 +103,13 @@
             </div>
         </footer>
     <!-- MDB -->
-<script
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script
     type="text/javascript"
     src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js"
     ></script>
-    <script
-    type="module"
-    src="../controllers/product-controller.js">
+    <script type="module"
+    src="../controllers/editproduct-controller.js">
     </script>
 </body>
 </html>

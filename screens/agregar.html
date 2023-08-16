@@ -45,26 +45,18 @@
             <h2 class="titulo">Agregar un producto</h2>
         </div>
         <div class="formulario__addProduct">
-            <form action="">
+            <form action="POST" data-form>
                 <div class="form-outline mb-4" style="width: 500px">
                     <input type="url" id="urlImage" class="form-control form-control-lg" style="background-color: #fff;" data-urlImage/>
                     <label class="form-label" for="form2Example17">Url de la Imagen</label>
                 </div>
                 <div class="form-outline mb-4">
-                    <input type="text" id="categoriaProducto" class="form-control form-control-lg" style="background-color: #fff;" data-categoria/>
-                    <label class="form-label" for="form2Example17">Categoría</label>
-                </div>
-                <div class="form-outline mb-4">
-                    <input type="text" id="nombreProducto" class="form-control form-control-lg" style="background-color: #fff;" data-categoria/>
+                    <input type="text" id="nombreProducto" class="form-control form-control-lg" style="background-color: #fff;" data-nombre/>
                     <label class="form-label" for="form2Example17">Nombre del Producto</label>
                 </div>
                 <div class="form-outline mb-4">
-                    <input type="text" id="precioProducto" class="form-control form-control-lg" style="background-color: #fff;" data-categoria/>
+                    <input type="text" id="precioProducto" class="form-control form-control-lg" style="background-color: #fff;" data-precio/>
                     <label class="form-label" for="form2Example17">Precio del Proucto</label>
-                </div>
-                <div class="form-outline mb-4">
-                    <input type="textarea" rows="2" cols="50" id="descripcionProducto" class="form-control form-control-lg" style="background-color: #fff;" data-categoria/>
-                    <label class="form-label" for="form2Example17">Descripción del producto</label>
                 </div>
                 <div class="boton__guardar">
                     <button class="btn__guardar">Agregar Producto</button>
@@ -111,9 +103,13 @@
             </div>
         </footer>
     <!-- MDB -->
-<script
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script
     type="text/javascript"
     src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js"
     ></script>
+    <script type="module"
+    src="../controllers/addproduct-controller.js">
+    </script>
 </body>
 </html>

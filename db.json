@@ -1,0 +1,70 @@
+{
+  "productos": [
+    {
+      "urlImage": "https://belugatec.net/wp-content/uploads/2023/02/Hyper-212-RGB-ARGB.png",
+      "nombre": "Disipador de Calor",
+      "price": "500",
+      "id": "23204e89-2ee1-465c-8e5a-73bdfbe3c468"
+    },
+    {
+      "urlImage": "https://www.onlinecomputer.com.au/assets/full/123070.png?20230105105513",
+      "nombre": "Video Card",
+      "price": "11999",
+      "id": "a90ce7e8-f2a4-4b60-8e58-b2d4f43fd8a9"
+    },
+    {
+      "urlImage": "https://ignitestore.mx/assets/uploads/sw_imagen_2022_10_18_173918692.png?1677103669",
+      "nombre": "Gamer Case",
+      "price": "2950",
+      "id": "db805c2b-f368-45be-bfab-16cf003f93cd"
+    },
+    {
+      "urlImage": "https://images.samsung.com/is/image/samsung/p6pim/mx/ls27c390ealxzx/gallery/mx-essential-s3-27s39c-ls27c390ealxzx-537544009?$650_519_PNG$",
+      "nombre": "Monitor Curvo 27",
+      "price": "4750",
+      "id": "adce3e33-7bde-472c-a18e-3d5e1a0b191e"
+    },
+    {
+      "urlImage": "https://ddtech.mx/assets/uploads/0e4abffa5ae8ccd4319ec32f2ed10ea1.png",
+      "nombre": "Teclado Mecanico",
+      "price": "1750",
+      "id": "b9e9fb0d-0fe2-4738-ae59-41658cd638fc"
+    },
+    {
+      "urlImage": "https://pcredcom.com/images/product/-CH-9309011-NA-Gallery-M65-RGB-ELITE-BLK-01.png",
+      "nombre": "Mouse Corsair m65 ultra rgb",
+      "price": "1800",
+      "id": "e1ee0249-27ec-44df-8018-27126a3d3e2e"
+    },
+    {
+      "urlImage": "https://ddtech.mx/assets/uploads/40e01f78ec7a969382ff89a2bc374b05.png",
+      "nombre": "Memoria RAM Corsair Vengance",
+      "price": "999",
+      "id": "21a85b88-1b58-4493-88ee-aad284304f3f"
+    },
+    {
+      "urlImage": "https://rog.asus.com/websites/global/products/tcymjbjbhzloect5/img/z490/kv/hero.png",
+      "nombre": "Motherboard Asus ROG",
+      "price": "5950",
+      "id": "aad54ef2-3a24-46ad-b0de-687c120ce286"
+    },
+    {
+      "urlImage": "https://www.pcdigital.com.mx/image/cache/catalog/1imagenes2022/ROG-THOR-1200P2-GAMING4-320x320.png.webp",
+      "nombre": "Fuente de Poder Asus ROG",
+      "price": "2999",
+      "id": "7c5582c0-1173-410c-beaf-9a5aabee7e15"
+    },
+    {
+      "urlImage": "https://www.gizcomputer.com/wp-content/uploads/2018/06/Intel-Core-i7-8086K-1024x768.png",
+      "nombre": "Procesador Intel Core i7",
+      "price": "7850",
+      "id": "ce6c7483-b1ec-45dc-9add-45cab2a646b2"
+    },
+    {
+      "urlImage": "https://mvelectronica.s3.us-east-2.amazonaws.com/productos/HD-2240/6104275b2ea86.webp",
+      "nombre": "SSD rgb 1TB",
+      "price": "999",
+      "id": "fd78a86b-1940-42a7-8bf8-11f6c5c53477"
+    }
+  ]
+}
